@@ -538,6 +538,13 @@
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-8">
                         <h2 class="heading-secondary ">Contact me</h2>
+
+                        <form action="https://formsubmit.co/your@email.com" method="POST">
+                            <input type="text" name="name" required>
+                            <input type="email" name="email" required>
+                            <button type="submit">Send</button>
+                       </form>
+
                         <form action="https://formsubmit.co/arrm.1996@gmail.com" method="POST">
                             <div class="form-group">
                                 <label for="Username">Username</label>
@@ -549,7 +556,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="subject">Subject</label>
-                                <input required type="text" name="_subject" class="form-control" id="subject">
+                                <input required type="text" class="form-control" id="subject">
                             </div>
 
                             <div class="form-group">
@@ -557,7 +564,7 @@
                                 <textarea required type="text" name="message" class="form-control" id="message" rows="4"></textarea>
                             </div>
                             <!-- <input type="hidden" name="_captcha" value="false"> -->
-<!--                             <input type="hidden" name="_autoresponse" value="Hi, I'm Andres I received your mail, as soon as I read it I'll contact you, thanks">
+                            <!-- <input type="hidden" name="_autoresponse" value="Hi, I'm Andres I received your mail, as soon as I read it I'll contact you, thanks">
  -->
 
                             <button type="submit" class="mt-2 btn btn--full float-right">Send <svg
